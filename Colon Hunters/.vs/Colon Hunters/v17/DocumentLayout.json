@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\C00285455\\Desktop\\git\\Colon Hunters\\Colon Hunters\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{203AE88F-8055-48D2-B611-8B34ACD9F2BE}|Colon Hunters\\Colon Hunters.vcxproj|C:\\Users\\C00285455\\Desktop\\git\\Colon Hunters\\Colon Hunters\\Colon Hunters\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{203AE88F-8055-48D2-B611-8B34ACD9F2BE}|Colon Hunters\\Colon Hunters.vcxproj|solutionrelative:Colon Hunters\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\C00285455\\Desktop\\git\\Colon Hunters\\Colon Hunters\\Colon Hunters\\Game.cpp",
+              "RelativeDocumentMoniker": "Colon Hunters\\Game.cpp",
+              "ToolTip": "C:\\Users\\C00285455\\Desktop\\git\\Colon Hunters\\Colon Hunters\\Colon Hunters\\Game.cpp",
+              "RelativeToolTip": "Colon Hunters\\Game.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-28T15:31:57.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
