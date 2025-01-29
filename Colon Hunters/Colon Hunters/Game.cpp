@@ -112,6 +112,7 @@ void Game::run()
             mouseMovement();
             update();
             render();
+            m_window.setMouseCursorVisible(false);
         }
     }
 }
