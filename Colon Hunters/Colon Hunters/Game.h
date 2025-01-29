@@ -1,44 +1,67 @@
 /// <summary>
-/// author Pete Lowe May 2022
-/// you need to change the above line or lose marks
+/// author Ciaran Kinsella
 /// </summary>
-#ifndef GAME_HPP
+//#ifndef GAME_HPP
 #define GAME_HPP
-/// <summary>
-/// include guards used so we don't process this file twice
-/// same as #pragma once
-/// Don't forget the endif at the bottom
-/// </summary>
-#include <SFML/Graphics.hpp>
+#define GAME_H
 
-class Game
-{
+#include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/Window/Keyboard.hpp>
+#include <SFML/Window/Event.hpp>
+#include <vector>
+#include <cmath>
+
+
+class Game {
 public:
-	Game();
-	~Game();
-	/// <summary>
-	/// main method for game
-	/// </summary>
-	void run();
+    Game();
+    ~Game();
+    void run();
 
 private:
+    // Game states
+    enum class GameState 
+    {
+        Menu, //either starting in menu
+        Playing // or playing the game.
+    };
 
-	void processEvents();
-	void processKeys(sf::Event t_event);
-	void update(sf::Time t_deltaTime);
-	void render();
-	
-	void setupFontAndText();
-	void setupSprite();
+    GameState m_gameState;
 
-	sf::RenderWindow m_window; // main SFML window
-	sf::Font m_ArialBlackfont; // font used by message
-	sf::Text m_welcomeMessage; // text used for message on screen
-	sf::Texture m_logoTexture; // texture used for sfml logo
-	sf::Sprite m_logoSprite; // sprite used for sfml logo
-	bool m_exitGame; // control exiting game
+    // Window settings
+    static const int SCREEN_WIDTH = 1280;  // self exlanitory here
+    static const int SCREEN_HEIGHT = 960;  
+    sf::RenderWindow m_window;
 
+    // Menu items
+    sf::Font m_font;
+    sf::Text m_titleText;
+    sf::Text m_playText;
+    sf::Text m_quitText;
+    int m_selectedMenuIndex;
+
+    // Map settings
+    static const int MAP_WIDTH = 8;
+    static const int MAP_HEIGHT = 8;
+    int m_worldMap[MAP_WIDTH][MAP_HEIGHT]; //2 arrays
+
+    // Player variables
+    float m_playerX = 4.0f; //players initial position x
+    float m_playerY = 4.0f; //players initial position y
+    float m_playerAngle = 0.0f; //the players angle
+    const float FOV = 3.14159f / 3.0f; // 60 degrees in radians, because some joker loves making me use radians 
+
+    // Game functions
+    void processEvents();
+    void update();
+    void render();
+    void initializeMap();
+
+    // Menu functions
+    void initializeMenu();
+    void processMenuEvents();
+    void updateMenu();
+    void renderMenu();
 };
-
-#endif // !GAME_HPP
-

@@ -2,15 +2,15 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\C00285455\Desktop\git\Colon Hunters\Colon Hunters\Debug\Colon Hunters.exe</FullPath>
+      <FullPath>C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Debug\Colon Hunters.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\C00285455\Desktop\git\Colon Hunters\Colon Hunters\Colon Hunters\ASSETS\FONTS\ariblk.ttf</FullPath>
+      <FullPath>C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\ASSETS\FONTS\ariblk.ttf</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\C00285455\Desktop\git\Colon Hunters\Colon Hunters\Colon Hunters\ASSETS\IMAGES\SFML-LOGO.png</FullPath>
+      <FullPath>C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\ASSETS\IMAGES\SFML-LOGO.png</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

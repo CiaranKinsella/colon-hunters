@@ -5,3 +5,15 @@ Ciaran Kinsella
 Ryan McDonald
 Paul 
 
+- SOURCES -
+
+https://en.sfml-dev.org/forums/index.php?topic=19667.0
+http://lodev.org/cgtutor/raycasting.html
+https://github.com/tmsbrg/adventure3d
+https://www.youtube.com/watch?v=LUYxLjic0Bc&pp=ygUFI2ZzbWw%3D
+https://www.youtube.com/watch?v=OpIS1zoz6fU
+https://www.youtube.com/watch?v=fPJOigUC7yU
+http://www.permadi.com/tutorial/raycast/index.html
+https://en.sfml-dev.org/forums/index.php?topic=5659.0
+https://github.com/Hopson97/Raycast
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDR4RUVTOF80Nko2ZEU4eS10OXRyX3FZbUhrd3xBQ3Jtc0tuNGRwNnJvQkVCTWdvYUptM0Nnc0tYZnZyX0toa3RKdF9vLW5abTg3dDhlMG5QcXFsVUdNRzJ3bzZjUmYzQzZteWItMVNxc3RPaWpra3Z6aFBfYzhyVVdZWXJqYnNqejFGZnB4RU14dW5odVNDZUswSQ&q=https%3A%2F%2Fgithub.com%2Fpbogre%2Fraycasting&v=UJqxG3aaebg

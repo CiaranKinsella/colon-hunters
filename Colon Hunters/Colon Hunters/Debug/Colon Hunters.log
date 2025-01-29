@@ -1,4 +1,24 @@
 ﻿  Game.cpp
-  main.cpp
-  Generating Code...
-  Colon Hunters.vcxproj -> C:\Users\C00285455\Desktop\git\Colon Hunters\Colon Hunters\Debug\Colon Hunters.exe
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(225,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(226,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(226,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(231,51): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(231,44): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(231,37): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(246,77): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(246,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(247,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(247,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Colon Hunters.vcxproj -> C:\Users\User\OneDrive - South East Technological University (Carlow Campus)\Desktop\git\colon-hunters\Colon Hunters\Debug\Colon Hunters.exe
