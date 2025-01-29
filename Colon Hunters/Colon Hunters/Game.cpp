@@ -109,10 +109,36 @@ void Game::run()
         else if (m_gameState == GameState::Playing) 
         { //now were in the game
             processEvents();
+            mouseMovement();
             update();
             render();
         }
     }
+}
+
+void Game::mouseMovement()
+{
+    // ok so heres the handle movement code here.
+    float mouseDistance = 0;
+
+    if (sf::Mouse::getPosition().x < (SCREEN_WIDTH / 2))
+    {
+        mouseDistance = m_mousePosX - sf::Mouse::getPosition().x;
+        mouseDistance = mouseDistance / 1000;
+
+        m_playerAngle -= mouseDistance; //turn player left
+    }
+    if (sf::Mouse::getPosition().x > (SCREEN_WIDTH / 2))
+    {
+        mouseDistance = sf::Mouse::getPosition().x - m_mousePosX;
+        mouseDistance = mouseDistance / 1000;
+
+        m_playerAngle += mouseDistance; //now turn him right
+    }
+
+    sf::Mouse::setPosition(mousePosition);
+
+
 }
 
 void Game::processEvents() 
@@ -127,14 +153,6 @@ void Game::processEvents()
     }
 
     // ok so heres the handle movement code here.
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) 
-    {
-        m_playerAngle -= 0.05f; //turn player left
-    }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) 
-    {
-        m_playerAngle += 0.05f; //now turn him right
-    }
 
     float moveSpeed = 0.05f;// put thsi in header file later dummy
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))

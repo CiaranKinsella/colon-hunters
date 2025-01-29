@@ -53,15 +53,20 @@ private:
     float m_playerAngle = 0.0f; //the players angle
     const float FOV = 3.14159f / 3.0f; // 60 degrees in radians, because some joker loves making me use radians 
 
+    // Mouse Variables
+    const int m_mousePosX = 640;
+    const int m_mousePosY = 480;
+    sf::Vector2i mousePosition{m_mousePosX, m_mousePosY};
+
     // Game functions
     void processEvents();
     void update();
     void render();
     void initializeMap();
+    void mouseMovement();
 
     // Menu functions
     void initializeMenu();
     void processMenuEvents();
-    void updateMenu();
     void renderMenu();
 };
