@@ -186,6 +186,37 @@ void Game::processEvents()
         }
 
     }
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+    {
+        float newX = m_playerX - cos(m_playerAngle + m_playerStrafeRadians) * moveSpeed; // new player position x and y
+        float newY = m_playerY - sin(m_playerAngle + m_playerStrafeRadians) * moveSpeed;
+
+        if (m_worldMap[int(newX)][int(m_playerY)] == 0)
+        {
+            m_playerX = newX;  //its checking our 2 map arrays. if its equal to zero we can mive there. if its equal
+            //to 1 (wall) we cant
+        }
+        if (m_worldMap[int(m_playerX)][int(newY)] == 0)
+        {
+            m_playerY = newY;
+        }
+    }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+    {
+        float newX = m_playerX + cos(m_playerAngle + m_playerStrafeRadians) * moveSpeed; // new player position x and y
+        float newY = m_playerY + sin(m_playerAngle + m_playerStrafeRadians) * moveSpeed;
+
+        if (m_worldMap[int(newX)][int(m_playerY)] == 0)
+        {
+            m_playerX = newX;  //its checking our 2 map arrays. if its equal to zero we can mive there. if its equal
+            //to 1 (wall) we cant
+        }
+        if (m_worldMap[int(m_playerX)][int(newY)] == 0)
+        {
+            m_playerY = newY;
+        }
+    }
 }
 
 void Game::update() 

@@ -51,6 +51,7 @@ private:
     float m_playerX = 4.0f; //players initial position x
     float m_playerY = 4.0f; //players initial position y
     float m_playerAngle = 0.0f; //the players angle
+    const float m_playerStrafeRadians = 1.57079633f;
     const float FOV = 3.14159f / 3.0f; // 60 degrees in radians, because some joker loves making me use radians 
 
     // Mouse Variables
