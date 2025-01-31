@@ -73,4 +73,12 @@ private:
     void processMenuEvents();
     void renderMenu();
     void runCardGame();
+
+    // Card Game functions
+    void initializeCardGame();
+    void processCardGameEvents();
+    void renderCardGame();
+    std::vector<int> deck;
+    int playerCard = 0;
+    int opponentCard = 0;
 };

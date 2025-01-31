@@ -1,30 +1,30 @@
 ﻿  Game.cpp
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(139,37): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(139,37): warning C4244:         with
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(139,37): warning C4244:         [
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(139,37): warning C4244:             T=int
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(139,37): warning C4244:         ]
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(146,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(296,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(296,49): warning C4244:         with
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(296,49): warning C4244:         [
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(296,49): warning C4244:             T=float
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(296,49): warning C4244:         ]
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(297,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(297,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(302,51): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(302,44): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(302,37): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,77): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,77): warning C4244:         with
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,77): warning C4244:         [
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,77): warning C4244:             T=float
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,77): warning C4244:         ]
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,63): warning C4244:         with
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,63): warning C4244:         [
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,63): warning C4244:             T=float
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(317,63): warning C4244:         ]
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(140,37): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(140,37): warning C4244:         with
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(140,37): warning C4244:         [
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(140,37): warning C4244:             T=int
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(140,37): warning C4244:         ]
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(147,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(297,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(297,49): warning C4244:         with
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(297,49): warning C4244:         [
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(297,49): warning C4244:             T=float
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(297,49): warning C4244:         ]
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(298,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(298,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(303,51): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(303,44): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(303,37): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,77): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,77): warning C4244:         with
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,77): warning C4244:         [
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,77): warning C4244:             T=float
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,77): warning C4244:         ]
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,63): warning C4244:         with
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,63): warning C4244:         [
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,63): warning C4244:             T=float
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(318,63): warning C4244:         ]
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(319,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Colon Hunters\Game.cpp(319,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Colon Hunters.vcxproj -> C:\Users\C00285455\Desktop\Git\colon-hunters\Colon Hunters\Debug\Colon Hunters.exe

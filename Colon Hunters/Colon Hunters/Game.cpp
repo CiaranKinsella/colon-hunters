@@ -10,6 +10,7 @@
 #include "Game.h"
 #include <iostream>
 #include <cmath>
+#include <random>
 
 // Constructor for the Game class. This sets up the game window and other initial settings.
 Game::Game() :
@@ -415,7 +416,71 @@ void Game::renderMenu()
     m_window.display();
 }
 
+//run the cardgame in gamestate cardgame
 void Game::runCardGame()
 {
-
+    initializeCardGame();
+    while (m_window.isOpen() && m_gameState == GameState::CardGame) 
+    {
+        processCardGameEvents();
+        renderCardGame();
+    }
 }
+
+void Game::initializeCardGame() 
+{
+    deck.clear(); // Removes any existing cards from the deck, ensuring a fresh start.
+
+    for (int i = 1; i <= 52; ++i) { // Loops from 1 to 52
+        deck.push_back(i); // Adds card numbers (1-52) to the deck
+    }
+
+    // Shuffles the deck to ensure randomness
+    std::shuffle(deck.begin(), deck.end(), std::mt19937(std::random_device()()));
+}
+
+// std::mt19937 is an implementation of the Mersenne Twister random number generator.
+// It is a pseudorandom thingy number generator that produces randomness efficiently.
+// mt19937 needs a seed value to start generating numbers, which is why we use std::random_device()() to supply a random seed.
+
+//deck is a std::vector that stores the deck of cards that were kinda using
+//deck.back() returns the last number in the vector without removing it.
+//This represents drawing the top card from a deck i guess
+
+//pop_back() removes the last card from the deck.
+//This simulates taking a card off the deck, just like in a real card game.
+
+void Game::processCardGameEvents() 
+{
+    sf::Event event; // Creates an event object to store user inputs.
+
+    while (m_window.pollEvent(event)) { // Checks if there are any new events
+        if (event.type == sf::Event::Closed) { // If the window is closed
+            m_window.close(); // Close the game window
+        }
+
+        if (event.type == sf::Event::KeyPressed) { // If a key is pressed
+            if (event.key.code == sf::Keyboard::Escape) {
+                m_gameState = GameState::Menu; // Switch back to the menu
+            }
+
+            if (event.key.code == sf::Keyboard::Space && !deck.empty()) {
+                playerCard = deck.back(); // Take the top card from the deck for the player
+                deck.pop_back(); // Remove that card from the deck
+
+                opponentCard = deck.back(); // Take the next card for the opponent
+                deck.pop_back(); // Remove that card from the deck
+
+                // Display the drawn cards in the console
+                std::cout << "Player drew: " << playerCard
+                    << " | Opponent drew: " << opponentCard << std::endl;
+            }
+        }
+    }
+}
+
+void Game::renderCardGame() {
+    m_window.clear();
+    m_window.display();
+}
+
