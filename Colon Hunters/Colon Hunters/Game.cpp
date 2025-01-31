@@ -61,6 +61,15 @@ void Game::initializeMenu() {
         SCREEN_HEIGHT * 0.5f
     );
 
+    m_cardGameText.setFont(m_font);
+    m_cardGameText.setString("Card Game");
+    m_cardGameText.setCharacterSize(70);
+    sf::FloatRect cardBounds = m_cardGameText.getLocalBounds();
+    m_cardGameText.setPosition(
+        (SCREEN_WIDTH - cardBounds.width) / 2,
+        SCREEN_HEIGHT * 0.58f  // Positioned between Play and Quit
+    );
+
     // Setup Quit button
     m_quitText.setFont(m_font); 
     m_quitText.setString("Quit");
@@ -113,6 +122,9 @@ void Game::run()
             update();
             render();
             m_window.setMouseCursorVisible(false);
+        }
+        else if (m_gameState == GameState::CardGame) {
+            runCardGame();
         }
     }
 }
@@ -352,6 +364,9 @@ void Game::processMenuEvents()
                     m_gameState = GameState::Playing; // Start the game
                 }
                 else if (m_selectedMenuIndex == 1) {
+                    m_gameState = GameState::CardGame; // play card game
+                }
+                else if (m_selectedMenuIndex == 2) {
                     m_window.close(); // Quit game
                 }
             }
@@ -377,16 +392,30 @@ void Game::renderMenu()
     }
     m_window.draw(m_playText);
 
+    if (m_selectedMenuIndex == 1)
+    {
+        m_cardGameText.setFillColor(sf::Color::Red);  // Highlight selected option
+    }
+    else
+    {
+        m_cardGameText.setFillColor(sf::Color::White);
+    }
+
     // Draw the "Quit" button
-    if (m_selectedMenuIndex == 1) 
+    if (m_selectedMenuIndex == 2) 
     {
         m_quitText.setFillColor(sf::Color::Red);  // Highlight selected option
     }
-    else 
+    else
     {
         m_quitText.setFillColor(sf::Color::White);
     }
     m_window.draw(m_quitText);
-
+    m_window.draw(m_cardGameText);
     m_window.display();
+}
+
+void Game::runCardGame()
+{
+
 }

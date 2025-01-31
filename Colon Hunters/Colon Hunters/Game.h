@@ -25,7 +25,8 @@ private:
     enum class GameState 
     {
         Menu, //either starting in menu
-        Playing // or playing the game.
+        Playing, // or playing the game.
+        CardGame
     };
 
     GameState m_gameState;
@@ -39,6 +40,7 @@ private:
     sf::Font m_font;
     sf::Text m_titleText;
     sf::Text m_playText;
+    sf::Text m_cardGameText;
     sf::Text m_quitText;
     int m_selectedMenuIndex;
 
@@ -70,4 +72,5 @@ private:
     void initializeMenu();
     void processMenuEvents();
     void renderMenu();
+    void runCardGame();
 };
