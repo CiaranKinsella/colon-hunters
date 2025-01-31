@@ -429,13 +429,13 @@ void Game::runCardGame()
 
 void Game::initializeCardGame() 
 {
-    deck.clear(); // Removes any existing cards from the deck, ensuring a fresh start.
+    deck.clear(); // Removes any existing cards from the deck
 
     for (int i = 1; i <= 52; ++i) { // Loops from 1 to 52
         deck.push_back(i); // Adds card numbers (1-52) to the deck
     }
 
-    // Shuffles the deck to ensure randomness
+    // Shuffles the deck
     std::shuffle(deck.begin(), deck.end(), std::mt19937(std::random_device()()));
 }
 
